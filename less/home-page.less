@@ -71,5 +71,14 @@
         border-radius: 10px;
       }
     }
+
+    .btn {
+      .btn-layout (flex-start, white, black);
+
+      &:hover {
+        .btn-layout (flex-start, white, @hover-color);
+        transition: 200ms;
+      }
+    }
   }
 }// home
