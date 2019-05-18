@@ -1,3 +1,9 @@
+.img-width {
+  width: 100%;
+}
+.extra-img {
+  display: none;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -180,6 +186,14 @@ p {
 .intro nav a:hover {
   color: #3D99F6;
 }
+.intro img {
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .intro img {
+    width: 100%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -207,6 +221,21 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+@media (max-width: 600px) {
+  .home .space-images .sky {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .home .space-images .launch {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .home .space-images .blast {
+    width: 100%;
+  }
+}
 .home .visit-planets {
   padding: 15px;
 }
@@ -223,6 +252,12 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 600px) {
+  .home .walk {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
@@ -232,16 +267,7 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-img {
-  width: 46%;
-  margin-left: 4%;
-}
-.home .walk .walk-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-.home .walk .btn {
+.home .walk .walk-text .btn {
   display: flex;
   justify-content: flex-start;
   color: white;
@@ -250,7 +276,7 @@ footer {
   font-size: 1.8rem;
   padding: 10px 20px;
 }
-.home .walk .btn:hover {
+.home .walk .walk-text .btn:hover {
   display: flex;
   justify-content: flex-start;
   color: white;
@@ -259,4 +285,13 @@ footer {
   font-size: 1.8rem;
   padding: 10px 20px;
   transition: 200ms;
+}
+.home .walk .walk-img {
+  width: 46%;
+  margin-left: 4%;
+}
+.home .walk .walk-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }

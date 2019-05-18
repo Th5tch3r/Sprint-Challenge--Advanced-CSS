@@ -1,6 +1,7 @@
 // Mixins Here
 
-.btn-layout (@justify, @color, @bgcolor) {
+//button (parametric mixin) 
+.btn-layout ( @color, @bgcolor) {
     display: flex; 
     justify-content: @justify;
     color: @color;
@@ -8,4 +9,13 @@
     border-radius: 8px;
     font-size: 1.8rem;
     padding: 10px 20px;
+}
+
+//media 
+.img-width {
+    width: 100%;
+}
+
+.extra-img {
+    display: none;
 }
