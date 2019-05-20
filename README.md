@@ -32,15 +32,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1. What is the difference between an adaptive website and a fully responsive website? <br/>  
+    The difference between an adaptive website and a full responsive website is that the adaptive website will select a distinct layout depending what device the user is trying to approach it from. This website would have different layouts with for multiple devices due to theirs differences in screen size. However, the fully responsive website adapts to whatever screen size the user is interacting with. Fully responsive website has a ‘fluid’ grid layout, which allows the website to adjust its own height and width to adapt to different sizes and show it correctly. <br/>
 
-2. Describe what it means to be mobile first vs desktop first.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+2. Describe what it means to be mobile first vs desktop first.<br/>
+    It means that the web developer either chose to work on either the mobile’s layout first or desktop first. This can be find by looking at their css media, a desktop first developer would use (max-width: ___px) and a mobile first developer would likely to use (min-width: ___px). <br/>
 
-4. How would you describe preprocessing to someone new to CSS?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? <br/>
+    The percent unit depends on the set of the browser. In case of web accessibility, the default setting of most browsers make 16px equals to 100%, so 10px equals to 62.5%. However, if you set the browser's default font size setting to smaller or bigger, the 62.5% does't equals to 10px yet. So in general, font-size: 62.5%  is the default size in the html tag. With this in mind, it would be easier for developer to use rem units because it would just double the font-size up unlike the hard coded pixels. <br/>
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+4. How would you describe preprocessing to someone new to CSS? <br/>
+    It is a tool performs on raw CSS to prepare it for the actual CSS. It might sounds complicated at first but it's actually not. Preprocessing is easier to work on, it is just like CSS but there are more shortcuts and easier layouts for developer to use. <br/>
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? <br/>
+    My favorite concept is nesting because it seems to be way more organized and easier to look for something since it's layout is similar to html. The concept that gave me the most trouble is escaping, this should have been way easier but due to my own browser not reducing, I had a hard time figuring what's going on and how to fix it. <br/>
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
